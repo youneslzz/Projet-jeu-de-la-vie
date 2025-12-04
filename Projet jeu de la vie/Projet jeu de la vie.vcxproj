@@ -105,7 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\user\source\SFML-3.0.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\source\SFML-3.0.2\include;C:\Users\user\source\repos\Projet jeu de la vie\Projet jeu de la vie\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,7 +123,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\user\source\SFML-3.0.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\source\SFML-3.0.2\include;C:\Users\user\source\repos\Projet jeu de la vie\Projet jeu de la vie\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,35 +133,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AliveState.cpp" />
-    <ClCompile Include="Cell.cpp" />
-    <ClCompile Include="CellRule.cpp" />
-    <ClCompile Include="CellState.cpp" />
-    <ClCompile Include="ConsoleRunner.cpp" />
-    <ClCompile Include="ConwayRule.cpp" />
-    <ClCompile Include="DeadState.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Grid.cpp" />
-    <ClCompile Include="GridRenderer.cpp" />
-    <ClCompile Include="InputHandler.cpp" />
-    <ClCompile Include="LifeApp.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="SfmlApp.cpp" />
+    <ClCompile Include="src\Cell.cpp" />
+    <ClCompile Include="src\CellRule.cpp" />
+    <ClCompile Include="src\CellState.cpp" />
+    <ClCompile Include="src\ConsoleRunner.cpp" />
+    <ClCompile Include="src\ConwayRule.cpp" />
+    <ClCompile Include="src\DeadState.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Grid.cpp" />
+    <ClCompile Include="src\GridRenderer.cpp" />
+    <ClCompile Include="src\InputHandler.cpp" />
+    <ClCompile Include="src\LifeApp.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\SfmlApp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AliveState.h" />
-    <ClInclude Include="Cell.h" />
-    <ClInclude Include="CellRule.h" />
-    <ClInclude Include="CellState.h" />
-    <ClInclude Include="ConsoleRunner.h" />
-    <ClInclude Include="ConwayRule.h" />
-    <ClInclude Include="DeadState.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Grid.h" />
-    <ClInclude Include="GridRenderer.h" />
-    <ClInclude Include="InputHandler.h" />
-    <ClInclude Include="LifeApp.h" />
-    <ClInclude Include="SfmlApp.h" />
+    <ClInclude Include="include\AliveState.h" />
+    <ClInclude Include="include\Cell.h" />
+    <ClInclude Include="include\CellRule.h" />
+    <ClInclude Include="include\CellState.h" />
+    <ClInclude Include="include\ConsoleRunner.h" />
+    <ClInclude Include="include\ConwayRule.h" />
+    <ClInclude Include="include\DeadState.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\Grid.h" />
+    <ClInclude Include="include\GridRenderer.h" />
+    <ClInclude Include="include\InputHandler.h" />
+    <ClInclude Include="include\LifeApp.h" />
+    <ClInclude Include="include\SfmlApp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
