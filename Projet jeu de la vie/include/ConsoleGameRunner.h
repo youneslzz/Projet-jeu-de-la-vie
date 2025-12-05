@@ -4,10 +4,10 @@
 #include "ConsoleRenderer.h"
 #include "InputHandler.h"
 
-class ConsoleRunner
+class ConsoleGameRunner
 {
 public:
-    ConsoleRunner(int width, int height);
+    ConsoleGameRunner(int width, int height);
     void run();
 
 private:
