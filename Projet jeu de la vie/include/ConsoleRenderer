@@ -1,0 +1,13 @@
+#pragma once
+#include "Game.h"
+
+class ConsoleRenderer
+{
+public:
+    explicit ConsoleRenderer(const Game& game);
+
+    void render() const;
+
+private:
+    const Game& m_game;
+};
